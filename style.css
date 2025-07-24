@@ -134,7 +134,7 @@ nav{
 
 .card-post1{
     background-color: #f0e6ff;
-    width: 960px;
+    width: 990px;
     border-radius: 20px;
     margin: 30px auto;
     padding: 20px;
@@ -142,29 +142,8 @@ nav{
     align-items: center;
     gap: 140px;
 }
-.post1-img1{
+.post1-img{
     width: 200px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.post1-img2{
-    width: 300px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.post1-img3{
-    width: 300px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.post1-img4{
-    width: 300px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-.post1-img5{
-    width: 300px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -336,6 +315,38 @@ nav{
     padding: 5px 20px;
     margin: 5px auto;
 }
+.card-post1{
+    background-color: #f0e6ff;
+    width: 540px;
+    border-radius: 24px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+}
+.post1-img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-heading{
+    font-size: 30px;
+    text-align: center;
+    color: #250b48e0;
+}
+.post1-desc{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #0f051ce0;
+}
+h4{
+    font-size: 20px;
+    color: #250b48e0;
+    text-align: center;
+}
     }
 
 @media (max-width : 500px){
@@ -463,6 +474,36 @@ nav{
 }
 .aboutme-div2{
      font-size: 16px;
+    text-align: center;
+}
+.card-post1{
+    background-color: #f0e6ff;
+    width: 240px;
+    border-radius: 24px;
+    display: grid;
+    justify-items: center;
+    font-size: 13px;
+    text-align: center;
+}
+.post1-img{
+    width: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-heading{
+    font-size: 18px;
+    text-align: center;
+    color: #250b48e0;
+}
+.post1-desc{
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+    color: #0f051ce0;
+}
+h4{
+    font-size: 16px;
+    color: #250b48e0;
     text-align: center;
 }
 }
