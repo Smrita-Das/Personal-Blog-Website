@@ -1,0 +1,212 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #dcc5fbcd;
+}
+nav ul li{
+    cursor: pointer;
+}
+.header-container{
+    height:80px;
+    background-color:#8a63bee0;
+    color:white;
+    padding:15px 0px 0px 0px;
+    
+}
+.header-container h1{
+    margin:0;
+    padding:0;
+    font-size:36px;
+    text-align:center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.header-container p{
+    margin-top:10px;
+    padding: 0;
+    font-size:18px;
+    text-align:center;
+    font-style: italic;
+}
+ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 19px;
+    
+}
+ul li{
+    list-style:none;
+    display:inline;
+    /* margin:0 15px; */
+    padding: 100px; 
+}
+nav{
+    background-color: #c39ef3;
+    display: flex;
+    justify-content: space-evenly;
+}
+.post-img{
+    width: 100%;
+    
+    object-fit: cover;
+    margin: 0;
+    padding:0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+.post-content{
+    padding: 0 10px;
+}
+
+.post-card{
+    width: 560px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 0;
+    
+}
+.post-card:hover{
+   cursor: pointer;
+    transform:  scale(1.02);
+    translate: -2px -2px;
+}
+.read-more-btn{
+    background-color: #8a63bee0;
+    color: white;
+    border: none;
+    padding: 12px;;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.contacts-container{
+    width: 560px;
+    border: 1px solid lightgrey;
+    margin: 36px auto;
+    border-radius: 20px;
+    padding: 16px;
+    background-color: #f0e6ff;
+    display: flex;
+    gap: 22px;
+
+}
+.contacts-container:hover{
+    box-shadow: 10px 10px 20px rgba(134, 39, 211, 0.1);
+    cursor: pointer;
+    transform:  scale(1.02);
+    translate: -2px -2px;
+}
+.contact-img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.icons{
+    display: flex;
+    padding: 5px;
+    gap: 40px;
+    margin-top: 30px;
+}
+.bi{
+    font-size: 30px;;
+    color: #814cc7e0;
+    
+}
+.contacts-container div h2{
+    font-size: 36px;
+}
+.copyright-icons{
+    gap: 26px;
+}
+.copyrights-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 25px;
+    background-color:#c39ef3;
+    padding: 5px 15px;
+}
+
+.card-post1{
+    background-color: #f0e6ff;
+    width: 960px;
+    border-radius: 20px;
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 140px;
+}
+.post1-img1{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.post1-img2{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-img3{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-img4{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-img5{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.post1-heading{
+    font-size: 40px;
+    text-align: center;
+    color: #250b48e0;
+}
+.post1-desc{
+    font-size: 22px;
+    text-align: center;
+    color: #0f051ce0;
+}
+h4{
+    font-size: 24px;
+    color: #250b48e0;
+    text-align: center;
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+}
+
+.aboutme-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px auto;
+    display: inline-flex;
+}
+.aboutme-div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 23px auto;
+    font-size: 20px;
+}
+.aboutme-div2{
+    font-size: 20px;
+    padding: 40px;
+    margin: 5px auto;
+}
