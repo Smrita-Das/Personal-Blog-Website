@@ -287,6 +287,36 @@ nav{
         font-size: 26px;
         color: #814cc7e0;
      }
+ 
+.contacts-container{
+    width: 480px;
+    border: 1px solid lightgrey;
+    margin: 36px auto;
+    border-radius: 40px;
+    padding: 12px;
+    background-color: #f0e6ff;
+    display: flex;
+    gap: 25px;
+
+}
+.contacts-container:hover{
+    box-shadow: 10px 10px 20px rgba(134, 39, 211, 0.1);
+    cursor: pointer;
+    transform:  scale(1.02);
+    translate: -2px -2px;
+}
+.contact-img{
+    width: 200px;
+    object-fit: cover;
+    border-radius: 40px;
+
+}
+.icons{
+    display: flex;
+    padding: 5px;
+    gap: 40px;
+    margin-top: 20px;
+}
     }
 
 @media (max-width : 500px){
@@ -372,4 +402,31 @@ nav{
         font-size: 16px;
         color: #814cc7e0;
      }
+     .contacts-container{
+    width: 240px;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    background-color: #f0e6ff;
+    display:grid;
+    justify-items: center;
+    text-align: center;
+    
+}
+.contacts-container:hover{
+    box-shadow: 10px 10px 20px rgba(134, 39, 211, 0.1);
+    cursor: pointer;
+    transform:  scale(1.02);
+    translate: -2px -2px;
+}
+.contact-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
 }
